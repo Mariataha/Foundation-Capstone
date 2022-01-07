@@ -1,0 +1,51 @@
+h1{
+    margin-left: 20px;
+  }
+  .grid-container{
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto;
+    grid-gap: 2em;
+    width: 80%;
+    background-color: gray;
+  }
+  .leftColumn{
+    background-color: silver;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+  }
+  .rightColumn{
+    background-color: silver;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+  }
+   .grid-item{
+    background-color: white;
+    padding-left: 10px;
+    margin: 10px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;   
+  }
+  label{
+    display: block;
+  }
+  button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+  }
+  .correctAnswer{
+    background-color: rgba(0, 128, 0, 0.384);
+    border-color: green;
+    border-style: solid;  
+  }
+  .incorrectAnswer{
+    background-color: rgba(255, 0, 0, 0.425);
+    border-color: red;
+    border-style: solid;  
+  }
